@@ -145,7 +145,7 @@ st.markdown(dark_system_css, unsafe_allow_html=True)
 # 2. AI CONFIGURATION & SCHEMAS
 # ==========================================
 if "GEMINI_API_KEY" in st.secrets:
-    genai.configure(api_key=st.secrets["AQ.Ab8RN6IsK_iQO1Oe0KofwD-75khI0cRXyV2pp9vwn8vgStXtGw"])
+    genai.configure(api_key=st.secrets["GEMINI_API_KEY"])
 else:
     genai.configure(api_key="AQ.Ab8RN6IsK_iQO1Oe0KofwD-75khI0cRXyV2pp9vwn8vgStXtGw")
 
